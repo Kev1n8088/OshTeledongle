@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.16
         }
       },
       "diff_pair_dimensions": [
@@ -58,36 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|45000000|25017045|9cb4b3be-2a6a-4fc4-a006-a457f05581f8|d49c1a74-a1a2-4f01-a6d2-11b2e76659a0",
-          ""
-        ],
-        [
-          "copper_edge_clearance|49250000|25017045|9cb4b3be-2a6a-4fc4-a006-a457f05581f8|045b9680-ad69-4742-974d-bf2daa70f725",
-          ""
-        ],
-        [
-          "copper_edge_clearance|52000000|25017045|9cb4b3be-2a6a-4fc4-a006-a457f05581f8|d49c1a74-a1a2-4f01-a6d2-11b2e76659a0",
-          ""
-        ],
-        [
-          "hole_clearance|55570000|56270000|fd672e56-e103-494a-b477-ba5475fc9d59|ad2bb8ce-6edc-4498-ab70-94ccf6e8aa3d",
-          ""
-        ],
-        [
-          "hole_clearance|55570000|56270000|fd672e56-e103-494a-b477-ba5475fc9d59|bcd31598-2e65-48d9-9961-8e7dc00002bc",
-          ""
-        ],
-        [
-          "hole_clearance|55570000|62370000|2bc3ccfb-e7a9-4dff-8b43-d0ee6761bfac|893d9909-4b7f-4b0e-9f71-8fd9203d344d",
-          ""
-        ],
-        [
-          "hole_clearance|55570000|62370000|2bc3ccfb-e7a9-4dff-8b43-d0ee6761bfac|d73b6650-edad-40ae-a302-c7ce1d0dfd32",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -116,7 +87,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -137,7 +108,7 @@
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -152,11 +123,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.381,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.254,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -164,10 +135,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.16,
-        "min_via_annular_width": 0.102,
-        "min_via_diameter": 0.46,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -221,9 +192,9 @@
         0.16,
         0.2,
         0.32,
-        0.38,
+        0.33,
+        0.3493,
         0.4,
-        0.419,
         0.64,
         1.28,
         2.0,
@@ -261,8 +232,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.47,
-          "drill": 0.26
+          "diameter": 0.46,
+          "drill": 0.254
+        },
+        {
+          "diameter": 0.46,
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -501,6 +476,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -547,10 +523,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "OshTeledongle.step",
       "svg": "",
       "vrml": ""
     },

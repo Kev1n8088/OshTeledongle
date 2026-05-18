@@ -1,0 +1,21 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.1*%
+%TF.CreationDate,2025-10-23T22:13:15-04:00*%
+%TF.ProjectId,OshTeledongle,4f736854-656c-4656-946f-6e676c652e6b,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.1) date 2025-10-23 22:13:15*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,3.000000X5.090000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J3*%
+X46500000Y-27562045D03*
+X53500000Y-27562045D03*
+%TD*%
+M02*
