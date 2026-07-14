@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "a3e58927-89eb-4c6c-bc09-c94127b7d1c7")
 	(paper "A4")
+	(title_block
+		(rev "1.1")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73831-2-OT"
 			(exclude_from_sim no)
@@ -8455,7 +8458,7 @@
 		)
 		(uuid "ff129cad-463d-4dc0-8425-c8ff403a9f89")
 	)
-	(label "MOSI3"
+	(label "MOSI2"
 		(at 204.47 45.72 0)
 		(effects
 			(font
